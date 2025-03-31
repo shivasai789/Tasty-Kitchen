@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.login-container {
+  display: flex;
+}
+
+.tk-logo1 {
+  display: none;
+}
+
+.login-container .left {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-cont {
+  -webkit-box-shadow: 0px 0px 30px 3px rgba(219, 215, 219, 1);
+  -moz-box-shadow: 0px 0px 30px 3px rgba(219, 215, 219, 1);
+  box-shadow: 0px 0px 30px 3px rgba(219, 215, 219, 1);
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tk-logo {
+  width: 80px;
+  margin: 0px;
+}
+
+.login-form-cont h2 {
+  font-size: 24px;
+  color: #f7931e;
+  font-style: italic;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.login-form-cont h1 {
+  font-weight: 400;
+}
+
+.lg-login-img {
+  width: 50vw;
+}
+
+.lg-login-img {
+  /* background-size: cover; */
+  height: 100vh;
+}
+
+.login-form {
+  max-width: 350px;
+  text-align: start;
+}
+
+.login-form div {
+  margin-bottom: 25px;
+}
+
+.login-form div label {
+  color: #475569;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.login-form div input {
+  background-color: #e2e8f0;
+  width: 300px;
+  height: 40px;
+  border: 0px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.login-form button {
+  background-color: #f7931e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 550px) and (max-width: 765px) {
+  .lg-login-img {
+    display: none;
+  }
+
+  .login-container .left {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lg-login-img {
+    display: none;
+  }
+
+  .tk-logo1 {
+    display: block;
+  }
+
+  .login-container .left {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .login-form-cont {
+    box-shadow: none;
+  }
+
+  .login-form-cont .tk-logo {
+    display: none;
+  }
+
+  .login-form-cont h2 {
+    display: none;
+  }
+
+  .login-form-cont h1 {
+    text-align: start;
+  }
+
+  .login-container .left .tk-logo1 {
+    align-self: flex-end;
+    position: absolute;
+    top: 0px;
+  }
+
+  .login-form-cont {
+    position: absolute;
+    bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .login-form div input {
+    width: 250px;
+  }
+}
