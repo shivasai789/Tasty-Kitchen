@@ -6,7 +6,7 @@
 
 A React-based restaurant discovery and food ordering platform that showcases restaurants, menus, and allows users to build their food cart.
 
-![Tasty Kitchens App Screenshot](./src/assets/app-screenshot.png)
+![Tasty Kitchens App Screenshot](./public/img/app-screenshot.png)
 
 ## ✨ Features
 
